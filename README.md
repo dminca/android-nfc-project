@@ -54,3 +54,16 @@ After you found the path to your apk, sign it:
 ```sh
 adb install ./app/build/outputs/apk/release/app-release-unsigned.apk
 ```
+
+## Useful resources
+- [Build unsigned APK file on Android Studio][1]
+- [Install parse failed no certificates when installing APK][2]
+- [Sharing files with NFC on Android][3]
+- [Android NFC read and write example][4]
+- [jetruby/android-beam-nfc-example][5]
+
+[1]: https://stackoverflow.com/questions/16709848/build-unsigned-apk-file-with-android-studio#16709979
+[2]: https://stackoverflow.com/a/20878125/2733115
+[3]: https://code.tutsplus.com/tutorials/sharing-files-with-nfc-on-android--cms-22501
+[4]: http://www.codexpedia.com/android/android-nfc-read-and-write-example/
+[5]: https://github.com/jetruby/android-beam-nfc-example
